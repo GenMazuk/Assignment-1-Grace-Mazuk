@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica;
+  font-size:14px;
+  background: #F8F0E3;
+}
+
+.headers {
+  color: Teal;
+  font-family:Times;
+}
+
+.footer {
+  background-color: white;
+  padding: 22px;
+}
+
+#top {
+  padding:10px;
+  background-color: teal;
+  color: white;
+}
+
+.navbar{
+  padding:10px;
+  float: left;
+  overflow: hidden;
+}
+
+ul{
+  list-style: none;
+}
+
+.box{
+  max-width: 1200px;
+  float:center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.maincontent{
+    margin-top: 130px;
+}
