@@ -52,6 +52,10 @@ a{
   color:white;
 }
 
+.linkedin{
+  color:teal;
+}
+
 li:hover{
   background-color:#006969;
 }
