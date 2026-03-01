@@ -68,9 +68,10 @@ li:hover{
     margin-top: 40px;
   justify-content:center;
 }
+
 article{
-  width:400px;
-  color:red;
+  color: black;
   text-align: center;
-  display:flex;
+  justify-content: center;
+  display: flex grid;
 }
