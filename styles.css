@@ -81,6 +81,7 @@ article {
   justify-content: center;
   float: left;
   width: 25%;
+  gap:2px;
 }
 
 section:after {
