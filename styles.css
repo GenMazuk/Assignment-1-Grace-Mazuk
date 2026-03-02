@@ -74,9 +74,16 @@ li:hover{
   justify-content:center;
 }
 
-article{
-  color: black;
+article {
+  color: red;
   text-align: center;
   justify-content: center;
-  display: flex grid;
+  float: left;
+  width: 25%;
+}
+
+section:after {
+  content: "";
+  display: grid;
+  clear: both;
 }
