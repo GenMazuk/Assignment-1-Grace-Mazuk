@@ -40,6 +40,7 @@ ul{
   padding:0;
 }
 
+/*needs adjusting so that navbar doesn't look so thick*/
 .navbar{
   position:sticky;
   top:0;
