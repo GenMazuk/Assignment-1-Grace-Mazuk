@@ -1,78 +1,79 @@
 body {
   font-family: Lucida;
-  font-size:16px;
-  background: #F8F0E3;
+  font-size: 16px;
+  background: #f8f0e3;
   text-align: center;
-  line-height:1.5;
+  line-height: 1.5;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .headers {
   color: Teal;
-  font-family:Times;
-  justify-content:center;
+  font-family: Times;
+  justify-content: center;
 }
 
 .footer {
   background-color: teal;
-  margin:-20px;
+  margin: -20px;
   padding: 20px;
-  justify-content:center;
-  color:white;
+  justify-content: center;
+  color: white;
 }
 
 #top {
-  padding-top:20px;
-  margin:-10px;
+  padding-top: 20px;
+  margin: -10px;
   background-color: teal;
   color: white;
 }
 
-li{
-  display:inline-block;
-  justify-content:center;
-  list-style:none;
-  padding:15px;
-  background-color:Teal;
+li {
+  display: inline-block;
+  justify-content: center;
+  list-style: none;
+  padding: 15px;
+  background-color: Teal;
 }
 
-ul{
+ul {
   list-style: none;
-  padding:0;
+  padding: 0;
 }
 
 /*needs adjusting so that navbar doesn't look so thick*/
-.navbar{
-  position:sticky;
-  top:0;
-  padding:1px;
-  margin:-10px;
-  background-color:Teal;
-  box-shadow:0px 4px 7px #006969;
+.navbar {
+  position: sticky;
+  top: 0;
+  padding: 1px;
+  margin: -10px;
+  background-color: Teal;
+  box-shadow: 0px 4px 7px #006969;
 }
 
-a{
-  text-decoration:none;
-  color:white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.linkedin{
-  color:teal;
+.linkedin {
+  color: teal;
 }
 
-li:hover{
-  background-color:#006969;
+li:hover {
+  background-color: #006969;
 }
 
-.box{
+.box {
   justify-content: center;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 20px;
 }
 
-.maincontent{
-    margin-top: 40px;
-  justify-content:center;
+.maincontent {
+  margin-top: 40px;
+  justify-content: center;
 }
 
 article {
@@ -81,11 +82,53 @@ article {
   justify-content: center;
   float: left;
   width: 25%;
-  gap:2px;
+  gap: 2px;
 }
 
 section:after {
   content: "";
   display: grid;
   clear: both;
+}
+
+.faq-question {
+  padding: 15px;
+  margin-top: 10px;
+  background: Teal;
+  color: white;
+  border-radius: 14px;
+  cursor: pointer;
+  font-family: Lucida;
+  font-size: 15px;
+  width: 35%;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.faq-answer {
+  color: Black;
+  display: none;
+}
+.faq-answer.show {
+  display: block;
+}
+
+.night-mode {
+  background-color: #121212;
+  color: white;
+}
+
+#toggle-mode {
+  padding: 10px 20px;
+  background-color: Teal;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#toggle-mode:hover{
+  background-color: #006969;
 }
