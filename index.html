@@ -2,64 +2,106 @@
 
 <head>
   <title>Mazuk Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="index.mjs"></script>
 </head>
 
 <body>
-  <h1 id="top"> Mazuk Portfolio</h1>
+  <h1 id="top">Mazuk Portfolio</h1>
   <nav class="navbar">
     <ul>
-      <li> <a href="About.html">About Me</a></li>
+      <li><a href="About.html">About Me</a></li>
       <li><a href="Contact.html">Contact</a></li>
       <li><a href="#Bottom">To the Bottom of the Page</a></li>
     </ul>
   </nav>
   <section class="maincontent">
-    <p>Hello! My name is Grace Mazuk and I'm double majoring in Graphic Design and Computer Science.</p>
-    <p>The website is a collection of work that I've created over the years.</p>
+    <button id="toggle-mode">Switch to Night Mode</button>
+    <p>
+      Hello! My name is Grace Mazuk and I'm double majoring in Graphic Design
+      and Computer Science.
+    </p>
+    <p>
+      The website is a collection of work that I've created over the years.
+    </p>
   </section>
 
-  <hr>
+  <hr />
   <section class="box">
     <h2 class="headers">Resume and Awards</h2>
-    <p>In this section, it would hold my Resume as well as awards i've won.</p>
-    <a class="linkedin" href="www.linkedin.com/in/grace-mazuk-a83233327"> Linkedin Profile </a>
+    <article>
+      <p>Quilt Design, Deans Choice</p>
+    </article>
+    <article>
+      <p> Other Awards</p>
+    </article>
+    <article>
+      <p> Other Awards</p>
+    </article>
+    <article>
+      <p> Other Awards</p>
+    </article>
+    <br>
+    <a class="linkedin" href="www.linkedin.com/in/grace-mazuk-a83233327">
+      <p>Linkedin Profile</p>
+    </a>
   </section>
-  <hr>
-  <section class='box'>
+  <hr />
+  <section class="box">
     <h2 class="headers">Artwork</h2>
-    <p> in this section will be various artworks I have made over the years</p>
+    <article>Artwork Here</article>
+    <article>Snake </article>
+    <article>the book covers</article>
+    <article>Final person piece</article>
+  </section>
+  <hr />
+  <section class="box">
+    <h2 class="headers">Photography</h2>
+
+    <article>
+      <img width="200px" src="images/Pigeon.webp" alt="Pied Imperial Pigeon" />
+      <img width="200px" src="images/secondpigeon.webp" alt="A Second Pied Imperial Pigeon" />
+      <p>Pied imperial pigeons. Taken at the Cincinnati zoo.</p>
+    </article>
+
+    <article>
+      <img width="200px" src="images/Parrot.webp" alt="Scarlet Makaw" />
+      <p>Scarlet macaw. Taken at the Cincinnati zoo.</p>
+    </article>
+
+    <article>
+      <img width="200px" src="images/Flamingos.webp" alt="Flamingos" />
+      <p>Flamingos. Taken at the Cincinnati zoo.</p>
+    </article>
+
+    <article>
+      <img width="200px" src="images/turtles.webp" alt="Two Turtles" />
+      <p>Two Turtles. Taken at the Cincinnati zoo.</p>
+    </article>
   </section>
   <hr>
   <section class="box">
-    <h2 class="headers">Photography</h2>
-    
-    <article>
-      <img width="200px" src="images/Pigeon.webp" alt="Pied Imperial Pigeon">
-      <img width="200px" src="images/secondpigeon.webp" alt="A Second Pied Imperial Pigeon">
-      <p> Pied imperial pigeons. Taken at the Cincinnati zoo.</p>
-    </article>
-    
-    <article>
-      <img width="200px" src="images/Parrot.webp" alt="Scarlet Makaw">
-      <p> Scarlet macaw. Taken at the Cincinnati zoo.</p>
-    </article>
-    
-    <article>
-      <img width="200px" src="images/Flamingos.webp" alt="Flamingos">
-      <p> Flamingos. Taken at the Cincinnati zoo.</p>
-    </article>
-    
-    <article>
-      <img width="200px" src="images/turtles.webp" alt="Two Turtles">
-      <p> Two Turtles. Taken at the Cincinnati zoo.</p>
-    </article>
+    <h2 class="headers">FAQ</h2>
+
+    <div class="faq-item">
+      <button class="faq-question">What materials/mediums do you use?</button>
+      <div class="faq-answer"> I typically use a digital camera for my photography. Many of my works are made in Adobe's Illustrator.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Do you offer prints of your artwork?</button>
+      <div class="faq-answer"> No.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question"> What is your prefered medium?</button>
+      <div class="faq-answer">Quilting/Sewing. I also prefer digital art.</div>
+    </div>
   </section>
-  <hr>
+  <br>
 </body>
-  
-<footer class="footer" id="Bottom"><a href="#top">Go to top of page</a>
-<p>© 2026 Grace Mazuk. All rights reserved. </p>
+
+<footer class="footer" id="Bottom">
+  <a href="#top">Go to top of page</a>
+  <p>© 2026 Grace Mazuk. All rights reserved.</p>
 </footer>
 
 </html>
