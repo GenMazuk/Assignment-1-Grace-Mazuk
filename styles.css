@@ -118,7 +118,7 @@ section:after {
   background-color: #121212;
   color: white;
 }
-
+/*adjust so boxes can change as well? night mode*/
 #toggle-mode {
   padding: 10px 20px;
   background-color: Teal;
