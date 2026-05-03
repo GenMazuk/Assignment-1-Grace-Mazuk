@@ -7,7 +7,6 @@ body {
   text-align: center;
   line-height: 1.5;
   transition: background-color 0.5s, color 0.5s;
-  text-overflow: ellipsis;
 }
 
 .headers {
