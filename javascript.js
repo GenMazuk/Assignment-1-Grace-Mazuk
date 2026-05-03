@@ -1,3 +1,4 @@
+//FAQ //
 const questions = document.querySelectorAll(".faq-question");
 
 questions.forEach((question) => {
@@ -6,7 +7,7 @@ questions.forEach((question) => {
     answer.classList.toggle("show");
   });
 });
-
+//toggle mode, night//
 const toggleBtn = document.getElementById("toggle-mode");
 const body = document.body;
 
