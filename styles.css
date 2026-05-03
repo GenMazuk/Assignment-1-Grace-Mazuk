@@ -164,3 +164,40 @@ section:after {
 .faq-answer.show {
   display: block;
 }
+/*smaller screen fixing*/
+article img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+
+  article {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  li {
+    display: block;
+    padding: 10px;
+  }
+
+  .faq-question {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  article img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
