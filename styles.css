@@ -1,3 +1,5 @@
+/*body*/
+
 body {
   font-family: Lucida;
   font-size: 16px;
@@ -5,6 +7,8 @@ body {
   text-align: center;
   line-height: 1.5;
   transition: background-color 0.5s, color 0.5s;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .headers {
@@ -28,20 +32,12 @@ body {
   color: white;
 }
 
-li {
-  display: inline-block;
+.maincontent {
+  margin-top: 40px;
   justify-content: center;
-  list-style: none;
-  padding: 15px;
-  background-color: Teal;
 }
+/*Nav bar*/
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-/*needs adjusting so that navbar doesn't look so thick*/
 .navbar {
   position: sticky;
   top: 0;
@@ -51,18 +47,36 @@ ul {
   box-shadow: 0px 4px 7px #006969;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  justify-content: center;
+  list-style: none;
+  padding: 15px;
+  background-color: Teal;
+}
+li:hover {
+  background-color: #006969;
+}
+
+/*articles*/
+
 a {
   text-decoration: none;
   color: white;
 }
-
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .linkedin {
   color: teal;
 }
 
-li:hover {
-  background-color: #006969;
-}
+/*boxes*/
 
 .box {
   justify-content: center;
@@ -71,9 +85,38 @@ li:hover {
   border-radius: 20px;
 }
 
-.maincontent {
-  margin-top: 40px;
-  justify-content: center;
+/*night mode*/
+.night-mode {
+  background-color: #121212;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+.night-mode .box {
+  background-color: #1e1e1e;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+.night-mode .box p {
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+.night-mode #top {
+  background-color: teal;
+  color: white;
+}
+
+#toggle-mode {
+  padding: 10px 20px;
+  background-color: Teal;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#toggle-mode:hover {
+  background-color: #006969;
 }
 
 article {
@@ -83,6 +126,8 @@ article {
   float: left;
   width: 25%;
   gap: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 section:after {
@@ -91,6 +136,7 @@ section:after {
   clear: both;
 }
 
+/*FAQ section*/
 .faq-question {
   padding: 15px;
   margin-top: 10px;
@@ -112,23 +158,4 @@ section:after {
 }
 .faq-answer.show {
   display: block;
-}
-
-.night-mode {
-  background-color: #121212;
-  color: white;
-}
-/*adjust so boxes can change as well? night mode*/
-#toggle-mode {
-  padding: 10px 20px;
-  background-color: Teal;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-bottom: 20px;
-}
-
-#toggle-mode:hover{
-  background-color: #006969;
 }
